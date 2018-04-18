@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--These are going to be the colors for the application -->
+    <color name="colorPrimary">#ee3b0e</color>
+    <color name="colorPrimaryDark">#8b4513</color>
+    <color name="colorAccent">#5fa6bf</color>
+    <color name="questionColor">#2a623d</color>
+    <color name="buttonColor">#eb8c00</color>
+</resources>
