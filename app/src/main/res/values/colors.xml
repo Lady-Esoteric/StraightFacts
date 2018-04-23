@@ -4,6 +4,8 @@
     <color name="colorPrimary">#ee3b0e</color>
     <color name="colorPrimaryDark">#8b4513</color>
     <color name="colorAccent">#5fa6bf</color>
-    <color name="questionColor">#2a623d</color>
+    <color name="questionColor">#6a760c</color>
     <color name="buttonColor">#eb8c00</color>
+    <color name="textColor1">#b8bcc8</color>
+    <!--color name="textColor2"></color-->
 </resources>

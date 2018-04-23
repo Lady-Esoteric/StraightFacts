@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StraightFacts</string>
+    <string name="quiz_title">"Welcome to Straight Facts Quiz!"</string>
+    <string name="welcome_message">Please feel free to scroll down to the questions and test your knowledge on Afrolatino history facts that were not taught in school!"</string>
 </resources>

@@ -7,12 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
-        <!-- this will be for the header of the application to greet the user -->
+        android:layout_height="wrap_content">
+        <!-- this will be fo the header of the application to greet the user -->
         <TextView
             android:id="@+id/quizTitle"
             android:layout_width="match_parent"
@@ -20,7 +18,8 @@
             android:background="@color/colorAccent"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Welcome to Straight Facts quiz!"
+            android:textColor="@color/textColor1"
+            android:text="@string/quiz_title"
             android:textSize="24sp" />
 
         <TextView
@@ -31,7 +30,7 @@
             android:background="@color/colorAccent"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Please feel free to scroll down to the questions and test your knowledge on African American history facts that were not taught in school!" />
+            android:text="@string/welcome_message"/>
 
         <TextView
             android:id="@+id/question1"
@@ -41,7 +40,7 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Question 1 will go here" />
+            android:text="What cartoon character did Esther Jones inspire?" />
 
         <Button
             android:id="@+id/quest1AnswrA"
@@ -50,7 +49,7 @@
             android:layout_below="@+id/question1"
             android:layout_margin="8dp"
             android:background="@color/buttonColor"
-            android:text="A. answer" />
+            android:text="A. Lucy" />
         <!--For each answer this is to be added per button android:onClick="addTwotoUserScore"-->
 
         <Button
@@ -62,7 +61,7 @@
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest1AnswrA"
             android:background="@color/buttonColor"
-            android:text="B. answer" />
+            android:text="B. Olive Oyl" />
 
         <Button
             android:id="@+id/quest1AnswrC"
@@ -73,7 +72,7 @@
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest1AnswrB"
             android:background="@color/buttonColor"
-            android:text="C. answer" />
+            android:text="C. Betty boop" /><!--this is the correct answer-->
 
         <TextView
             android:id="@+id/question2"
@@ -83,7 +82,7 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Question 2 will go here" />
+            android:text="Mexican folk dance is a blend of European, African, and Indigenous heritage." />
 
         <Button
             android:id="@+id/answr2True"
@@ -92,8 +91,9 @@
             android:layout_below="@+id/question2"
             android:layout_marginLeft="48dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:background="@color/buttonColor"
-            android:text="True" />
+            android:text="True" /><!--this is the correct answer-->
 
         <Button
             android:id="@+id/quest2False"
@@ -102,6 +102,7 @@
             android:layout_below="@+id/question2"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_toRightOf="@id/answr2True"
             android:background="@color/buttonColor"
             android:text="False" />
@@ -114,7 +115,7 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Question 3 will go here" />
+            android:text="Who came up with the phrase 'Girl, bye'?" />
 
         <Button
             android:id="@+id/quest3AnswrA"
@@ -123,7 +124,7 @@
             android:layout_below="@+id/question3"
             android:layout_margin="8dp"
             android:background="@color/buttonColor"
-            android:text="A. answer" />
+            android:text="A. Pauletta Spencer" />
         <!--For each answer this is to be added per button android:onClick="addTwotoUserScore"-->
 
         <Button
@@ -135,7 +136,7 @@
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest3AnswrA"
             android:background="@color/buttonColor"
-            android:text="B. answer" />
+            android:text="B. Delores Cole" />
 
         <Button
             android:id="@+id/quest3AnswrC"
@@ -146,7 +147,7 @@
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest3AnswrB"
             android:background="@color/buttonColor"
-            android:text="C. answer" />
+            android:text="C. Quintessa Higgins" /><!--this is the correct answer-->
 
         <TextView
             android:id="@+id/question4"
@@ -156,7 +157,7 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Question 4 will go here" />
+            android:text="Bessie Coleman was the first African American woman who was licensed as a pilot?" />
 
         <Button
             android:id="@+id/answr4True"
@@ -165,8 +166,9 @@
             android:layout_below="@+id/question4"
             android:layout_marginLeft="48dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:background="@color/buttonColor"
-            android:text="True" />
+            android:text="True" /><!--this is the correct answer-->
 
         <Button
             android:id="@+id/answr4False"
@@ -175,6 +177,7 @@
             android:layout_below="@+id/question4"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_toRightOf="@+id/answr4True"
             android:background="@color/buttonColor"
             android:text="False" />
@@ -189,7 +192,7 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Question 5 will go here" />
+            android:text="The trial called Loving v. Virginia was based on what civil rights issue?" />
 
         <Button
             android:id="@+id/quest5AnswrA"
@@ -198,7 +201,7 @@
             android:layout_below="@+id/question5"
             android:layout_margin="8dp"
             android:background="@color/buttonColor"
-            android:text="A. answer" />
+            android:text="A. Segregation" />
         <!--For each answer this is to be added per button android:onClick="addTwotoUserScore"-->
 
         <Button
@@ -210,18 +213,18 @@
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest5AnswrA"
             android:background="@color/buttonColor"
-            android:text="B. answer" />
+            android:text="B. Interracial Marriage" /><!--this is the correct answer-->
 
         <Button
             android:id="@+id/quest5AnswrC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question5"
-            android:layout_marginLeft="56dp"
+            android:layout_marginLeft="48dp"
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest5AnswrB"
             android:background="@color/buttonColor"
-            android:text="C. answer" />
+            android:text="C. Lynching" />
 
         <TextView
             android:id="@+id/question6"
@@ -231,35 +234,47 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Question 6 will go here" />
-
-        <Button
-            android:id="@+id/answr6True"
+            android:text="Mexico introduced chocolate, corn and chilies to the world." />
+        <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question6"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/answr6True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="48dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:background="@color/buttonColor"
+            android:onClick="onRadioButtonClicked"
             android:text="True" />
+            <!--this will need to add tot he users core -->
 
-        <Button
+        <RadioButton
             android:id="@+id/answr6False"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_below="@+id/question6"
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="72dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_toRightOf="@+id/answr6True"
             android:background="@color/buttonColor"
             android:text="False" />
-        #below will be where the score can be seen
+
+        </RadioGroup>
+        <!-- below will be where the score can be seen -->
 
         <!-- below is the code where the questions will be displayed and the answers as well for the user to interact with. -->
-        <!-- <LinearLayout
+        <!-- <Button
+                android:id="@+id/userSubmitScore"
+                android:layout_below="
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
+                android:text="Submit answers"
                 android:orientation="vertical"
                 android:background="@color/questionColor">
 
