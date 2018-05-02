@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--These are going to be the colors for the application -->
+    <!--These are going to be the colors for the a
+     pplication -->
     <color name="colorPrimary">#ee3b0e</color>
     <color name="colorPrimaryDark">#8b4513</color>
     <color name="colorAccent">#5fa6bf</color>
     <color name="questionColor">#6a760c</color>
     <color name="buttonColor">#eb8c00</color>
-    <color name="textColor1">#b8bcc8</color>
-    <!--color name="textColor2"></color-->
+    <color name="textColor1">#ffffff</color>
+    <color name="textColor2">#000000</color>
 </resources>
