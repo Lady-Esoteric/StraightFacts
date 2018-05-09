@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -18,8 +17,8 @@
             android:background="@color/colorAccent"
             android:gravity="center"
             android:padding="16dp"
-            android:textColor="@color/textColor2"
             android:text="@string/quiz_title"
+            android:textColor="@color/textColor2"
             android:textSize="26sp" />
 
         <TextView
@@ -29,33 +28,33 @@
             android:layout_below="@+id/quizTitle"
             android:background="@color/colorAccent"
             android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/textColor1"
             android:padding="16dp"
-            android:text="@string/welcome_message"/>
+            android:text="@string/welcome_message"
+            android:textColor="@color/textColor1"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/question1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/welcomeMessage"
-            android:background="@color/questionColor"
             android:layout_marginTop="16dp"
-            android:textColor="@color/textColor1"
+            android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="@string/question1" />
+            android:text="@string/question1"
+            android:textColor="@color/textColor1" />
 
         <Button
             android:id="@+id/quest1AnswrA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
             android:layout_below="@+id/question1"
-            android:layout_margin="8dp"
-            android:textColor="@color/textColor1"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
             android:background="@color/buttonColor"
-            android:text="A. Lucy" />
+            android:text="A. Lucy"
+            android:textColor="@color/textColor1" />
         <!--For each answer this is to be added per button android:onClick="addTwotoUserScore"-->
 
         <Button
@@ -64,11 +63,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/question1"
             android:layout_marginLeft="40dp"
-            android:textColor="@color/textColor1"
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest1AnswrA"
             android:background="@color/buttonColor"
-            android:text="B. Olive Oyl" />
+            android:text="B. Olive Oyl"
+            android:textColor="@color/textColor1" />
 
         <Button
             android:id="@+id/quest1AnswrC"
@@ -76,71 +75,71 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/question1"
             android:layout_marginLeft="32dp"
-            android:textColor="@color/textColor1"
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@id/quest1AnswrB"
             android:background="@color/buttonColor"
-            android:text="C. Betty boop" /><!--this is the correct answer-->
+            android:text="C. Betty boop"
+            android:textColor="@color/textColor1" /><!--this is the correct answer-->
 
         <TextView
             android:id="@+id/question2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/quest1AnswrA"
-            android:background="@color/questionColor"
             android:layout_marginTop="32dp"
-            android:textColor="@color/textColor1"
+            android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="@string/question2" />
+            android:text="@string/question2"
+            android:textColor="@color/textColor1" />
 
         <Button
             android:id="@+id/answr2True"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question2"
-            android:layout_marginLeft="64dp"
-            android:textColor="@color/textColor1"
-            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="8dp"
             android:background="@color/buttonColor"
-            android:text="True" /><!--this is the correct answer-->
+            android:text="True"
+            android:textColor="@color/textColor1" /><!--this is the correct answer-->
 
         <Button
             android:id="@+id/answr2False"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question2"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="56dp"
             android:layout_marginTop="8dp"
-            android:textColor="@color/textColor1"
-            android:layout_marginBottom="8dp"
             android:layout_toRightOf="@id/answr2True"
             android:background="@color/buttonColor"
-            android:text="False" />
+            android:text="False"
+            android:textColor="@color/textColor1" />
 
         <TextView
             android:id="@+id/question3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
             android:layout_below="@+id/answr2True"
+            android:layout_marginTop="32dp"
             android:background="@color/questionColor"
-            android:textColor="@color/textColor1"
             android:gravity="center"
             android:padding="16dp"
-            android:text="@string/question3" />
+            android:text="@string/question3"
+            android:textColor="@color/textColor1" />
 
         <Button
             android:id="@+id/quest3AnswrA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question3"
-            android:layout_marginTop="8dp"
             android:layout_marginLeft="32dp"
-            android:textColor="@color/textColor1"
+            android:layout_marginTop="8dp"
             android:background="@color/buttonColor"
-            android:text="A.Pauletta Spencer" />
+            android:text="A.Pauletta Spencer"
+            android:textColor="@color/textColor1" />
         <!--For each answer this is to be added per button android:onClick="addTwotoUserScore"-->
 
         <Button
@@ -149,10 +148,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/quest3AnswrA"
             android:layout_marginLeft="32dp"
-            android:textColor="@color/textColor1"
             android:layout_marginTop="8dp"
             android:background="@color/buttonColor"
-            android:text="B. Delores Cole" />
+            android:text="B. Delores Cole"
+            android:textColor="@color/textColor1" />
 
         <Button
             android:id="@+id/quest3AnswrC"
@@ -160,46 +159,46 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/quest3AnswrB"
             android:layout_marginLeft="32dp"
-            android:textColor="@color/textColor1"
             android:layout_marginTop="8dp"
             android:background="@color/buttonColor"
-            android:text="C. Quintessa Higgins" /><!--this is the correct answer-->
+            android:text="C. Quintessa Higgins"
+            android:textColor="@color/textColor1" /><!--this is the correct answer-->
 
         <TextView
             android:id="@+id/question4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/quest3AnswrC"
-            android:background="@color/questionColor"
             android:layout_marginTop="32dp"
+            android:background="@color/questionColor"
             android:gravity="center"
-            android:textColor="@color/textColor2"
             android:padding="16dp"
-            android:text="@string/question4" />
+            android:text="@string/question4"
+            android:textColor="@color/textColor1" />
 
         <CheckBox
             android:id="@+id/answr4True"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question4"
-            android:paddingLeft="56dp"
-            android:textColor="@color/textColor2"
-            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="True" /><!--this is the correct answer-->
+            android:layout_marginTop="8dp"
+            android:paddingLeft="56dp"
+            android:text="True"
+            android:textColor="@color/textColor2" /><!--this is the correct answer-->
 
         <CheckBox
             android:id="@+id/answr4False"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question4"
-            android:paddingLeft="48dp"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/textColor2"
             android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
             android:layout_toRightOf="@+id/answr4True"
-            android:textSize="16sp"
-            android:text="False" />
+            android:paddingLeft="48dp"
+            android:text="False"
+            android:textColor="@color/textColor2"
+            android:textSize="16sp" />
 
         <!--above are questions 3 & 4 and then below are 5 & 6 as that is the question format -->
 
@@ -208,22 +207,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/answr4True"
-            android:textColor="@color/textColor1"
-            android:background="@color/questionColor"
             android:layout_marginTop="32dp"
+            android:background="@color/questionColor"
             android:gravity="center"
             android:padding="16dp"
-            android:text="@string/question5" />
+            android:text="@string/question5"
+            android:textColor="@color/textColor1" />
 
         <Button
             android:id="@+id/quest5AnswrA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question5"
-            android:textColor="@color/textColor1"
-            android:layout_margin="8dp"
             android:background="@color/buttonColor"
-            android:text="A. Segregation" />
+            android:layout_marginLeft="32dp"
+            android:text="A. Segregation"
+            android:textColor="@color/textColor1" />
         <!--For each answer this is to be added per button android:onClick="addTwotoUserScore"-->
 
         <Button
@@ -231,96 +230,99 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/quest5AnswrA"
-            android:textColor="@color/textColor1"
-            android:layout_margin="8dp"
+            android:layout_marginLeft="32dp"
             android:background="@color/buttonColor"
-            android:text="B. Interracial Marriage" /><!--this is the correct answer-->
+            android:text="B. Interracial Marriage"
+            android:textColor="@color/textColor1" /><!--this is the correct answer-->
 
         <Button
             android:id="@+id/quest5AnswrC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/quest5AnswrB"
-            android:textColor="@color/textColor1"
-            android:layout_margin="8dp"
+            android:layout_marginLeft="32dp"
             android:background="@color/buttonColor"
-            android:text="C. Lynching" />
+            android:text="C. Lynching"
+            android:textColor="@color/textColor1" />
 
         <TextView
             android:id="@+id/question6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/quest5AnswrC"
-            android:background="@color/questionColor"
-            android:textColor="@color/textColor1"
-            android:gravity="center"
             android:layout_marginTop="32dp"
+            android:background="@color/questionColor"
+            android:gravity="center"
             android:padding="16dp"
-            android:text="@string/question6" />
+            android:text="@string/question6"
+            android:textColor="@color/textColor1" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question6"
             android:orientation="horizontal">
-        <RadioButton
-            android:id="@+id/answr6True"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="48dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:textColor="@color/textColor1"
-            android:background="@color/buttonColor"
-            android:text="True"/>
+
+            <RadioButton
+                android:id="@+id/answr6True"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/buttonColor"
+                android:text="True"
+                android:textColor="@color/textColor1" />
 
             <!--this will need to add tot he users core -->
 
-        <RadioButton
-            android:id="@+id/answr6False"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/question6"
-            android:layout_marginLeft="72dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:textColor="@color/textColor1"
-            android:background="@color/buttonColor"
-            android:text="False" />
+            <RadioButton
+                android:id="@+id/answr6False"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/answr6True"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="72dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/buttonColor"
+                android:text="False"
+                android:textColor="@color/textColor1" />
 
         </RadioGroup>
+
         <TextView
             android:id="@+id/question7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question6"
-            android:background="@color/questionColor"
-            android:textColor="@color/textColor1"
-            android:gravity="center"
             android:layout_marginTop="48dp"
+            android:background="@color/questionColor"
+            android:gravity="center"
             android:padding="16dp"
-            android:text="@string/question7" />
+            android:text="@string/question7"
+            android:textColor="@color/textColor1" />
 
         <EditText
             android:id="@+id/quest7answrTextBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/question7"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="8dp"
-            android:hint="1800s"
-            android:inputType="number"
-            android:layout_below="@id/question7"/>
+            android:hint="During the 1800s"
+            android:inputType="number" />
 
         <Button
-                android:id="@+id/userSubmitScore"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Submit answers"
-                android:layout_marginTop="64dp"
-                android:layout_below="@id/quest7answrTextBox"
-                android:background="@color/questionColor"
-                android:textColor="@color/textColor1"
-                android:gravity="center" />
-                <!--android:onClick="totalUserScore"-->
+            android:id="@+id/userSubmitScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quest7answrTextBox"
+            android:layout_marginTop="64dp"
+            android:background="@color/questionColor"
+            android:gravity="center"
+            android:text="Submit answers"
+            android:textColor="@color/textColor1" />
+        <!--android:onClick="totalUserScore"-->
 
     </RelativeLayout>
 </ScrollView>

@@ -2,12 +2,12 @@
     <string name="app_name">StraightFacts</string>
     <string name="quiz_title">Welcome to Straight Facts Quiz!</string>
     <string name="welcome_message">Please feel free to scroll down to the questions and test your knowledge on Afrolatino history facts that were not taught in school!</string>
-    <string name="question1">What cartoon character did Esther Jones inspire?</string>
-    <string name="question2">Mexican folk dance is a blend of European, African, and Indigenous heritage.</string>
-    <string name="question3">Who came up with the phrase "Girl, bye"?</string>
-    <string name="question4">Bessie Coleman was the first African American woman who was licensed as a pilot?</string>
-    <string name="question5">The trial called Loving v. Virginia was based on what civil rights issue?</string>
-    <string name="question6">Mexico introduced chocolate, corn and chilies to the world.</string>
-    <string name="question7">In what year was Sissieretta Jones nicke named "the Black Patti" after Adelina Patti who was a prima donna from Italy?</string>
+    <string name="question1">1. What cartoon character did Esther Jones inspire?</string>
+    <string name="question2">2. Mexican folk dance is a blend of European, African, and Indigenous heritage.</string>
+    <string name="question3">3. Who came up with the phrase "Girl, bye"?</string>
+    <string name="question4">4. Bessie Coleman was the first African American woman who was licensed as a pilot?</string>
+    <string name="question5">5. The trial called Loving v. Virginia was based on what civil rights issue?</string>
+    <string name="question6">6. Mexico introduced chocolate, corn and chilies to the world.</string>
+    <string name="question7">7. In what year was Sissieretta Jones nicke named "the Black Patti" after Adelina Patti who was a prima donna from Italy?</string>
 
 </resources>
