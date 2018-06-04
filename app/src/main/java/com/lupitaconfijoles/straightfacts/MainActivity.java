@@ -23,9 +23,12 @@ so that it will have a minimum
     }
 
 //make sure to add a grading logic for the questions and the right answers
-//public void updateUserScore(View v){
-       // userScore = userScore + 2
-
+public void addToUserScore(View v){
+    userScore = userScore + 4;
+}
+//for incorrect answers
+public void wrongAnswer(View v){
+    userScore = userScore + 0;   
 }
 //make a toast message for the submit button
 //public void
