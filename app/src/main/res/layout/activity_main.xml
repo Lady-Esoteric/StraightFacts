@@ -310,7 +310,7 @@
             android:layout_marginLeft="32dp"
             android:layout_marginTop="8dp"
             android:hint="During the 1800s"
-            android:inputType="number" />
+            android:inputType="numbericPassword" />
 
         <Button
             android:id="@+id/userSubmitScore"
@@ -321,8 +321,8 @@
             android:background="@color/questionColor"
             android:gravity="center"
             android:text="Submit answers"
-            android:textColor="@color/textColor1" />
-        <!--android:onClick="totalUserScore"-->
+            android:textColor="@color/textColor1"
+            android:onClick="totalUserScore" />
 
     </RelativeLayout>
 </ScrollView>
