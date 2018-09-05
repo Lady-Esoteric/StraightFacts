@@ -310,7 +310,7 @@
             android:layout_marginLeft="32dp"
             android:layout_marginTop="8dp"
             android:hint="During the 1800s"
-            android:inputType="numbericPassword" />
+            android:inputType="numericPassword" />
 
         <Button
             android:id="@+id/userSubmitScore"
